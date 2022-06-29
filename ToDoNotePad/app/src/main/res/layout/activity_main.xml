@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pastelbabyblue"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="325dp"
+        android:src="@drawable/to_do_home"
+        android:contentDescription="@string/to_do_home_icon" />
+
+
+    <Button
+        android:id="@+id/btn_todo_home"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/round_corner"
+        android:layout_gravity="center"
+        android:textColor="@color/lightWhite"
+        android:text="@string/todo"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_notepad_home"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textColor="@color/lightWhite"
+        android:layout_gravity="center"
+        android:text="@string/notepad"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/round_corner"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_calendar_home"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textColor="@color/lightWhite"
+        android:layout_gravity="center"
+        android:text="@string/calendar"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/round_corner"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/pastelblue"
+        android:src="@drawable/ic_baseline_settings_24"
+         />
+
+
+
+</LinearLayout>

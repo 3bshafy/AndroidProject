@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pastelbabyblue"
+    tools:context=".AboutUsScreenActivity">
+
+    <TextView
+        android:id="@+id/tx_ourTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/our_team"
+        android:textStyle="bold"
+        android:textSize="46sp"
+        android:padding="25dp"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="225dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/tx_ourTeam"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/to_do_alert" />
+
+    <ImageView
+        android:id="@+id/member"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_tema_member"
+        android:layout_below="@+id/logo"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/member"
+        android:layout_marginLeft="37dp"
+        android:layout_below="@+id/logo"
+        android:src="@drawable/mazen_logo" />
+
+    <ImageView
+        android:id="@+id/member_2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_tema_member"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/member"/>
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/member"
+        android:src="@drawable/mazen_khaled_logo"
+        android:layout_below="@id/member"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/member_3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_tema_member"
+        android:layout_below="@+id/member_2"/>
+
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/member"
+        android:src="@drawable/amr_logo"
+        android:layout_below="@id/member_2"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/member4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="180dp"
+        android:src="@drawable/ic_tema_member"
+        android:layout_below="@+id/logo"/>
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/member"
+        android:layout_marginLeft="230dp"
+        android:layout_below="@+id/logo"
+        android:src="@drawable/karim_logo" />
+
+    <ImageView
+        android:id="@+id/member_5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_tema_member"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/member"/>
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/member"
+        android:src="@drawable/karim_ahmed"
+        android:layout_below="@id/member"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/member_6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="180dp"
+        android:src="@drawable/ic_tema_member"
+        android:layout_below="@+id/member_2"/>
+
+    <ImageView
+        android:id="@+id/logo5"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/member"
+        android:src="@drawable/karim_logo"
+        android:layout_below="@id/member_2"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="15dp"/>
+
+    <View
+        android:id="@+id/line_about"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/pasteldarkblue"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/logo5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A todo and notepad android application that gives user the ability to write important tasks to complete throughout the day and to take important notes"
+        android:layout_below="@id/line_about"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

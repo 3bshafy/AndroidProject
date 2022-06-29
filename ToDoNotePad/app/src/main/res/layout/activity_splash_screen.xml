@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pastelblue"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="386dp"
+        android:layout_height="353dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/to_do_logo"
+        android:src="@drawable/to_do_logo_splash" />
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/fading_tx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/pastelfoush"
+        android:textSize="20sp"
+        app:texts="@array/Tip"
+        app:timeout="750" />
+
+        <ProgressBar
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/random_Tip"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
